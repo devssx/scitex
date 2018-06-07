@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SciTE", "scite\win32\SciTE.vcxproj", "{5641EA06-A73C-4297-B287-48B40850C708}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonCPP", "libs\jsoncpp\JsonCPP.vcxproj", "{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AStyle", "libs\astyle\build\vs2015\AStyle Lib\AStyle Lib.vcxproj", "{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Static|x64 = Static|x64
+		Static|x86 = Static|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5641EA06-A73C-4297-B287-48B40850C708}.Debug|x64.ActiveCfg = Debug|x64
+		{5641EA06-A73C-4297-B287-48B40850C708}.Debug|x64.Build.0 = Debug|x64
+		{5641EA06-A73C-4297-B287-48B40850C708}.Debug|x86.ActiveCfg = Debug|Win32
+		{5641EA06-A73C-4297-B287-48B40850C708}.Debug|x86.Build.0 = Debug|Win32
+		{5641EA06-A73C-4297-B287-48B40850C708}.Release|x64.ActiveCfg = Release|x64
+		{5641EA06-A73C-4297-B287-48B40850C708}.Release|x64.Build.0 = Release|x64
+		{5641EA06-A73C-4297-B287-48B40850C708}.Release|x86.ActiveCfg = Release|Win32
+		{5641EA06-A73C-4297-B287-48B40850C708}.Release|x86.Build.0 = Release|Win32
+		{5641EA06-A73C-4297-B287-48B40850C708}.Static|x64.ActiveCfg = Release|x64
+		{5641EA06-A73C-4297-B287-48B40850C708}.Static|x64.Build.0 = Release|x64
+		{5641EA06-A73C-4297-B287-48B40850C708}.Static|x86.ActiveCfg = Release|Win32
+		{5641EA06-A73C-4297-B287-48B40850C708}.Static|x86.Build.0 = Release|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Debug|x64.ActiveCfg = Debug|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Debug|x64.Build.0 = Debug|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Debug|x86.Build.0 = Debug|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Release|x64.ActiveCfg = Release|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Release|x64.Build.0 = Release|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Release|x86.ActiveCfg = Release|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Release|x86.Build.0 = Release|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Static|x64.ActiveCfg = Release|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Static|x64.Build.0 = Release|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Static|x64.Deploy.0 = Release|x64
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Static|x86.ActiveCfg = Release|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Static|x86.Build.0 = Release|Win32
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}.Static|x86.Deploy.0 = Release|Win32
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Debug|x64.ActiveCfg = Debug|x64
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Debug|x64.Build.0 = Debug|x64
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Debug|x86.Build.0 = Debug|Win32
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Release|x64.ActiveCfg = Release|x64
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Release|x64.Build.0 = Release|x64
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Release|x86.ActiveCfg = Release|Win32
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Release|x86.Build.0 = Release|Win32
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Static|x64.ActiveCfg = Static|x64
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Static|x64.Build.0 = Static|x64
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Static|x86.ActiveCfg = Static|Win32
+		{3D040C2E-4F0C-4A79-B33D-8336C1ADA037}.Static|x86.Build.0 = Static|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://syrows.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = scite\\win32\\SciTE.vcxproj
+		SccProjectName1 = scite/win32
+		SccLocalPath1 = scite\\win32
+		SccProjectUniqueName2 = libs\\jsoncpp\\JsonCPP.vcxproj
+		SccProjectName2 = libs/jsoncpp
+		SccLocalPath2 = libs\\jsoncpp
+		SccProjectUniqueName3 = libs\\astyle\\build\\vs2015\\AStyle\u0020Lib\\AStyle\u0020Lib.vcxproj
+		SccProjectName3 = libs/astyle/build/vs2015/AStyle\u0020Lib
+		SccLocalPath3 = libs\\astyle\\build\\vs2015\\AStyle\u0020Lib
+	EndGlobalSection
+EndGlobal
