@@ -1,0 +1,146 @@
+{
+   "buttons" : [
+      {
+         "cmd" : "IDM_NEW",
+         "icon" : 10,
+         "text" : "New"
+      },
+      {
+         "cmd" : "IDM_OPEN",
+         "icon" : 11,
+         "text" : "Open"
+      },
+      {
+         "cmd" : "IDM_SAVE",
+         "icon" : 15,
+         "text" : "Save"
+      },
+      {
+         "cmd" : "IDM_SAVEALL",
+         "icon" : 16,
+         "text" : "Save All"
+      },
+      {
+         "cmd" : "IDM_CLOSE",
+         "icon" : 2,
+         "text" : "Close"
+      },
+      {
+         "text" : "-"
+      },
+      {
+         "cmd" : "IDM_CUT",
+         "icon" : 5,
+         "text" : "Cut"
+      },
+      {
+         "cmd" : "IDM_COPY",
+         "icon" : 4,
+         "text" : "Copy"
+      },
+      {
+         "cmd" : "IDM_PASTE",
+         "icon" : 12,
+         "text" : "Paste"
+      },
+      {
+         "text" : "-"
+      },
+      {
+         "cmd" : "IDM_UNDO",
+         "icon" : 18,
+         "text" : "Undo"
+      },
+      {
+         "cmd" : "IDM_REDO",
+         "icon" : 14,
+         "text" : "Redo"
+      },
+      {
+         "text" : "-"
+      },
+      {
+         "cmd" : "IDM_FIND",
+         "icon" : 6,
+         "text" : "Find"
+      },
+      {
+         "cmd" : "IDM_FINDNEXTBACK",
+         "icon" : 22,
+         "text" : "Find Previous"
+      },
+      {
+         "cmd" : "IDM_FINDNEXT",
+         "icon" : 23,
+         "text" : "Find next"
+      },
+      {
+         "cmd" : "IDM_REPLACE",
+         "icon" : 24,
+         "text" : "Replace"
+      },
+      {
+         "cmd" : "IDM_FINDINFILES",
+         "icon" : 7,
+         "text" : "Find in Files"
+      },
+      {
+         "text" : "-"
+      },
+      {
+         "cmd" : "IDM_CLEAN",
+         "icon" : 9,
+         "text" : "Format"
+      },
+      {
+         "cmd" : "IDM_GO",
+         "icon" : 17,
+         "text" : "Go"
+      },
+      {
+         "cmd" : "IDM_BUILD",
+         "icon" : 1,
+         "text" : "Build"
+      },
+      {
+         "cmd" : "IDM_COMPILE",
+         "icon" : 26,
+         "text" : "Compile"
+      },
+      {
+         "text" : "-"
+      },
+      {
+         "cmd" : "IDM_MONOFONT",
+         "icon" : 27,
+         "text" : "Change Fonts"
+      },
+      {
+         "text" : "-"
+      },
+      {
+         "cmd" : "IDM_TOGGLEOUTPUT",
+         "icon" : 25,
+         "text" : "Output"
+      },
+      {
+         "cmd" : "IDM_FULLSCREEN",
+         "icon" : 28,
+         "text" : " Full Screen"
+      },
+      {
+         "cmd" : "IDM_VIEWSPACE",
+         "icon" : 29,
+         "text" : "Whitespace"
+      },
+      {
+         "cmd" : "IDM_LINENUMBERMARGIN",
+         "icon" : 30,
+         "text" : "Line Number"
+      }
+   ],
+   "iconset" : {
+      "path" : "",
+      "type" : "dll"
+   }
+}
